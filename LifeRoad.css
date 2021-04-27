@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+  }
+  body {
+    font-family: Arial;
+    padding: 20px;
+    background: #f3f1f2;
+  }
+  header{
+      min-height: 100vh;
+      background:grey;
+      color:white;
+      background-image: url(https://blog.prezi.com/wp-content/uploads/2019/04/03-deep-blue-1024x576.jpg);
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      display:flex;
+      background-size: cover;
+      flex-direction: column;
+      justify-content: stretch;
+      min-height: 10vh;
+      padding: 10px;
+      font-size: 35px;
+      text-align: center;
+      font-family: Playfair;
+      letter-spacing: 2px;
+      font-style: italic;
+      font-weight:300;
+  }
+  img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 300px;
+    display: block;
+  }
+  .card {
+    background-image:  linear-gradient(#cccccc,#bbccdd,#ccddee);
+     padding: 20px;
+     margin-top: 5px;
+  }
+  footer {
+    padding: 20px;
+    color: white;
+    text-align: center;
+    background:grey;
+    margin-top: 5px;
+  }
+  .social-links{
+    display: flex;
+    justify-content: center;
+    margin-bottom:1px ;
+  }
+  .social-links a{
+    border:2px solid #ffff;
+    display:block;
+    width: 40px;
+    height: 40px;
+    color: purple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    text-decoration: none;
+    margin: 0 0.3rem;
+  }
+  .f2{
+    margin-top: 5px;
+    font-family: Playfair;
+    letter-spacing:px;
+    display:block;
+  }
+  
+  .fa-thumbs-o-up{
+    color:blue;
+    cursor:pointer;
+  }
+  .fa-thumbs-up{
+    color: blue;
+    cursor: pointer;
+  }
+  .comment{
+    margin-left: 5px;
+    font-size:1.1rem;
+    border:none;
+    width: auto;
+    background:white;
+    border-radius:2rem;
+    padding:0.2rem 1rem;
+    }
+    .details{
+      color:blue;
+      cursor:pointer;
+      font-style: italic;
+    }
+    .content{
+      display:none;
+    }
+    #respond{
+      margin-top: 10px;
+      background-color:rgb(131, 147, 160);
+      border:2px solid black;
+      padding: 5px;
+    }
+    #respond input[type='text'],#respond input[type="email"],#respond textarea{
+      margin-bottom: 10px;
+      display:block;
+      width:100%;
+      border:1px solid rgba(0,0,0,0.1);
+      line-height: 1.4em;
+    }
+
+      img#abt{
+        width:100px;
+        height:100px;
+        float: left;
+        border-radius: 50%;
+      }
+      .about{
+        margin-top: 10px;
+        background-color:rgb(187, 213, 238);
+      }
+      .myself{
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        width:50%;
+        height: 150px;
+      }
